@@ -18,4 +18,10 @@ https://i.stack.imgur.com/FWTkr.png
 
 I had the following questions: How could I change the navlinks' paddings without the logo moving to the right? And how could I make the logo to be at the center of the navbar?
 
-I found the answer in the code of a website's navbar, and a part of that code that's relevant to the issue I talk about in this repository can be found in the file Navbar.css.
+I found the solutions to the logo moving when the navlinks' paddings were changed and the logo not being on the center in the code of a website's navbar, and a part of that code that I used to find those solutions can be found in the file Navbar.css.
+
+Differences between the code in Navbar.css and the code in Navbar_grid_container.js
+
+- In the CSS of the container of the three components I talked aboud, I used "grid-template-rows: 80px;" instead of "grid-template-rows: 100px;". The height of the navbar is of 80px, and grid-template-rows should be of 80px as well for the navlinks and the logo to be vertically centered.
+
+- NavMenu doesn't have the CSS declaration "justify-content: space-around;", and instead, NavMenu's a has "padding-left: 30px;" and "padding-right: 15px;".
