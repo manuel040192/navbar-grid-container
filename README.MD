@@ -20,6 +20,8 @@ I had the following questions: How could I change the navlinks' paddings without
 
 I found the solutions to the logo moving when the navlinks' paddings were changed and the logo not being on the center in the code of a website's navbar, and a part of that code that I used to find those solutions can be found in the file Navbar.css.
 
+The previous code is in Navbar_flex_container.js and the current code is in Navbar_grid_container.js.
+
 The following are two differences between the code in Navbar.css and the code in Navbar_grid_container.js:
 
 - In the CSS of the container of the three components I talked aboud, I used "grid-template-rows: 80px;" instead of "grid-template-rows: 100px;". The height of the navbar is of 80px, and grid-template-rows should be of 80px as well for the navlinks and the logo to be vertically centered.
