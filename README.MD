@@ -18,4 +18,4 @@ https://i.stack.imgur.com/FWTkr.png
 
 I had the following questions: How could I change the navlinks' paddings without the logo moving to the right? And how could I make the logo to be at the center of the navbar?
 
-I found the answer in the code of a website's navbar, and a part of that code that's relevant to the issue I talk about in this repository can be found in the file navbar.css.
+I found the answer in the code of a website's navbar, and a part of that code that's relevant to the issue I talk about in this repository can be found in the file Navbar.css.
