@@ -37,7 +37,7 @@ export default function Header() {
 const Container = styled.div`
     height: 80px;
     display: grid;
-    grid-template-areas: "grid-menu-links grid-menu-logo grid-menu-iconos";
+    grid-template-areas: "grid-menu-links grid-menu-logo grid-menu-icons";
     grid-template-columns: 30% 40% 30%;
     grid-template-rows: 80px;
     position: fixed;
@@ -160,7 +160,7 @@ const Logo = styled.div`
 
 const EmptyComponent = styled.div`
     display: flex;
-    grid-area: grid-menu-iconos;
+    grid-area: grid-menu-icons;
     justify-content: space-around;
     align-items: center;
 `
