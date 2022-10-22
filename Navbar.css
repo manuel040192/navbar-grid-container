@@ -1,0 +1,32 @@
+.grid-menu-principal {
+    background: #eee;
+    display: grid;
+    grid-template-areas: "grid-menu-links grid-menu-logo grid-menu-iconos";
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: 100px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 900;
+}
+
+.grid-menu-links {
+    align-items: center;
+    display: flex;
+    grid-area: grid-menu-links;
+    justify-content: space-around;
+}
+
+.grid-menu-logo {
+    align-items: center;
+    display: flex;
+    grid-area: grid-menu-logo;
+    justify-content: center;
+}
+
+.grid-menu-iconos {
+    align-items: center;
+    display: flex;
+    grid-area: grid-menu-iconos;
+    justify-content: space-around;
+}
