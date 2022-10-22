@@ -34,10 +34,8 @@ export default function Header() {
     )
 }
 
-
 const Container = styled.div`
     height: 80px;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,6 +46,8 @@ const Container = styled.div`
     font-family: 'Rajdhani', sans-serif;
     font-weight: lighter;
 `
+
+{/* When I remove the padding on NavMenu's a, Logo moves to the left. */}
 
 const NavMenu = styled.div`
     display: flex;
