@@ -47,17 +47,15 @@ const Container = styled.div`
     font-weight: lighter;
 `
 
-{/* When I remove the padding on NavMenu's a, Logo moves to the left. */}
-
 const NavMenu = styled.div`
     display: flex;
     a {
         font-family: 'Rajdhani', sans-serif;
         font-weight: 400;
         font-size: 22px;
-        letter-spacing: 1px;
-        padding-right: 20px;
         padding-left: 20px;
+        padding-right: 20px;
+        letter-spacing: 1px;
         color: #000000;
         text-decoration: none;
         width: 60px;
