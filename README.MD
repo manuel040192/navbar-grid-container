@@ -27,3 +27,7 @@ The following are two differences between the code in Navbar.css and the code in
 - In the CSS of the container of the three components I talked aboud, I used "grid-template-rows: 80px;" instead of "grid-template-rows: 100px;". The height of the navbar is of 80px, and grid-template-rows should be of 80px as well for the navlinks and the logo to be vertically centered.
 
 - NavMenu doesn't have the CSS declaration "justify-content: space-around;", and instead, NavMenu's a has "padding-left: 30px;" and "padding-right: 15px;".
+
+This is how the navbar looks now:
+
+https://palma-store-website-next.vercel.app/
